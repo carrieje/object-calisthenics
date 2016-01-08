@@ -21,5 +21,5 @@ class Bank:
     def __init__ (self):
         self.account_list = list()
 
-
-print "hello bank"
+if __name__ == '__main__':
+  print "hello bank"
