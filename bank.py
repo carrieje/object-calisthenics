@@ -9,17 +9,17 @@ class Money:
         self.amount = amount
 
 class Account:
-    def __init__(self, content, opening_date):
-        self.content = content
+    def __init__(self, opening_date):
+        self.balance = Money(0.0)
         self.opening_date = opening_date
 
-class AccountCollection:
-    def __init__(self):
-        self.content = list()
-
-class Bank:
-    def __init__ (self):
-        self.account_list = list()
+    def deposit(amount):
+        self.content = ...
 
 if __name__ == '__main__':
-  print "hello bank"
+
+  today = Date(7, 1, 16)
+  new_account = Account(today)
+
+  fourty_two_bitcoin = Money(42.0)
+  new_account.deposit(fourty_two_bitcoin)
